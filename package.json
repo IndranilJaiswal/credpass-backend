@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for CredPass",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "nodemon server.mjs",
+    "build": "next build",
+    "start": "node server.mjs"
+  },
+  "author": "Indranil Jaiswal",
+  "license": "ISC",
+  "dependencies": {
+    "@web5/api": "^0.8.3",
+    "axios": "^1.6.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
